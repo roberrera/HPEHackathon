@@ -40,7 +40,7 @@ import java.util.Map;
 public class HODClient {
     public  HODApps hodApp;
     public enum REQ_MODE {SYNC, ASYNC };
-    private String apiKey = "50d036f8-e46f-4242-aac6-9650cf6ad645";
+    public static String apiKey = "50d036f8-e46f-4242-aac6-9650cf6ad645";
     private String hodBase = "https://api.havenondemand.com/1/api/";
     private String hodJobResult = "https://api.havenondemand.com/1/job/result/";
     private String hodJobStatus = "https://api.havenondemand.com/1/job/status/";
